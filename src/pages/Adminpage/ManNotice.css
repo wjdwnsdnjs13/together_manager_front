@@ -1,0 +1,30 @@
+a:visited{
+    text-decoration: noneManNotice;
+}
+table .notTable{
+    width: 80vw;
+    text-align: center;
+}
+td{
+    padding-top: 1vh;
+}
+table tr:hover {
+    background: var(--blue);
+    color: var(--white);
+}
+.notTitleColumn{
+    width:50vw;
+}
+.notWriterNameColumn{
+    width:5vw;
+}
+.notContentColumn{
+    width:0vw;
+}
+.notWriTimeTransColumn{
+    width: 10vw;
+}
+.notWriteButton{
+    font-size: 1.5em;
+    text-align: center;
+}

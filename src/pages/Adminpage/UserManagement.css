@@ -1,0 +1,70 @@
+.serCard {
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    width: 35vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.orgCard {
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    margin-left: 5vw;
+    width: 35vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.cardBox2{
+    position: relative;
+    width: 100vw;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0px;
+}
+.userList {  /* 사용자 목록 */
+    position: relative;
+    display: grid;
+    min-height: 30vh;
+    background: var(--white);
+    padding: 20px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.volun_name{
+    text-align: center;
+}
+table .serTable{
+    width: 35vw;
+    text-align: center;
+}
+.serNameColumn {
+    width: 10vw;
+    text-align: center;
+}
+.serMobileColumn {
+    width: 10vw;
+    text-align: center;
+}
+.serEmailColumn {
+    width: 10vw;
+    text-align: center;
+}
+#orgList2{
+    margin-left: 0vw;
+    margin-top: 5vh;
+}
+tr{
+    text-align: center;
+}
