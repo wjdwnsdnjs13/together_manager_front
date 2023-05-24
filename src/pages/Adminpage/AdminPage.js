@@ -31,12 +31,12 @@ function AdminPage(props) {
               <Link to="/Adminpage" className="main_title">
                 <p className="main_title">TOGETHER</p>
               </Link>
-              <li id="current">
+              {/* <li id="current">
                 <a href="/AdminPage">
                   <span className="icon"></span>
                   <span className="title">Dashboard</span>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <Link to="/AdminPage/UserManagement">
                   <span className="icon"></span>

@@ -79,12 +79,12 @@ function NoticeUpdate() {
                             <Link to="/AdminPage" className="main_title">
                                 <p className="main_title">TOGETHER</p>
                             </Link>
-                            <li>
+                            {/* <li>
                                 <a href="/AdminPage">
                                     <span className="icon"></span>
                                     <span className="title">Dashboard</span>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to="/AdminPage/UserManagement">
                                     <span className="icon"></span>

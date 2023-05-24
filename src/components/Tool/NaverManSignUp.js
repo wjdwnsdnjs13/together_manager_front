@@ -15,7 +15,7 @@ const NaverManSignUp = (props, { setGetToken, setUserInfo }) => {
         naverScript.onload = () => {
             const naverLogin = new window.naver.LoginWithNaverId({
                 clientId: 'j1ENGLwu3zQ82gDNyVpX',
-                callbackUrl: "http://localhost:3000/Adminpage",
+                callbackUrl: "http://localhost:3000/AdminPage",
                 callbackHandle: true,
                 isPopup: false,
                 loginButton: {

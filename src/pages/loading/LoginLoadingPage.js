@@ -87,7 +87,7 @@ function LoginLoadingPage(props) {
                     }));
                     
                     // 페이지 이동
-                    navigate('/Adminpage'/*, 
+                    navigate('/AdminPage'/*, 
                         {state: {userType: ""}}
                     */)
                 } else {
